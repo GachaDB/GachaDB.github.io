@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="StickIn" content="This is the Stick IN Home Page">
+    <link rel="stylesheet" href="../CSS/Sidebar.css">
+    <link rel="stylesheet" href="../CSS/Gamelist.css">
+    <title>GachaDB</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <!-- GSAP Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <!-- Three.js Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r146/three.min.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="menu-btn">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    <nav class="sidebar">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="https://t4.ftcdn.net/jpg/04/06/91/91/240_F_406919147_D3WsGjwXj1qmFNrei2ZFvBWwiueRcFmg.jpg" alt="logo" />
+                </span>
+                <div class="text header-text">
+                    <span class="main">Gacha</span>
+                    <span class="sub">Database</span>
+                </div>
+            </div>
+            <i class="bx bx-chevron-right toggle"></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="../Index.html">
+                            <i class="bx bx-home-alt icons"></i>
+                            <span class="text nav-text">Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class="bx bx-dice-6 icons"></i>
+                            <span class="text nav-text">Games</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+                <li class="nav-link">
+                    <a href="Credits.html">
+                        <i class="bx bx-food-menu icons"></i>
+                        <span class="text nav-text">Credit</span>
+                    </a>
+                </li>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="banner">
+            <hr class="separator">
+            <h2 class="title">Games</h2>
+            <hr class="separator">
+        </div>
+        <div class="game_container">
+            <div class="game-list">
+                <div class="game" data-price="50">
+                    <div class="img">
+                        <img src="https://cdn-bgp.bluestacks.com/BGP/id/gametiles_com.kurogame.wutheringwaves.global.jpg" alt="Wuthering Waves">
+                    </div>
+                    <div class="info">
+                        <h3>Wuthering Waves</h3>
+                    </div>
+                    <a href="https://GachaDB.github.io/wuthering-wave-db" target="_blank">
+                        <button>Go</button>
+                    </a>
+                </div>                
+                <div class="game" data-price="150">
+                    <div class="img">
+                        <img src="https://img.utdstc.com/icon/68d/131/68d13114b6d60f8570133274979c031fbee9e46e01608957469627de6f4f6e1e:200" alt="Honkai Star Rail">
+                    </div>
+                    <div class="info">
+                        <h3>Honkai Star Rail</h3>
+                    </div>
+                    <a href="" target="_blank">
+                        <button>Go</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+
+    <script src="../JS/Sidebar.js"></script>
+    <script src="../JS/Gamelist.js"></script>
+</body>
+</html>
